@@ -37,6 +37,12 @@ public class Program {
 	
 	System.out.println("Diretório criado com sucesso: "+success);
 	
+	File caminho = new File(strPath);
+	
+	System.out.println("Nome: "+caminho.getName());
+	System.out.println("Caminho: "+caminho.getParent());
+	System.out.println("Caminho completo: "+caminho.getPath());
+	
 		sc.close();
 		
 
